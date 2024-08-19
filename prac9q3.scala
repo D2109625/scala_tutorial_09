@@ -17,7 +17,7 @@ object Main {
     val name3 = "Saman"
     val name4 = "Kumara"
 
-    // Using lambda expressions
+  
     println(formatName(name1)(name => name.toUpperCase))
 
     println(formatName(name2.substring(0, 2))(name => name.toUpperCase) + 
